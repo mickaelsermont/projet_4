@@ -529,11 +529,15 @@ button {
 
 .scrollToTop span {
     margin-top: 6px;
+    transition: all .3s ease-in-out;
 }
 
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
+}
+.showScrollTop:hover span {
+    color: #FFF;
 }
 
 a[data-lightbox] {
@@ -786,7 +790,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #111!important;
 }
 
 .btn-atomic-tangerine:hover {
