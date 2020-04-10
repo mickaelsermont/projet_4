@@ -686,7 +686,22 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
+.active {
+    font-weight: 600;
+}
 
+#citation {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 500;
+    text-transform: none;
+    color: #575757!important;
+    padding: 0 30px;
+}
+.text-footer {
+    font-weight: 600;
+    color: #000!important;
+}
 p {
     font-size: 16px;
 }
@@ -750,6 +765,7 @@ h4 {
 }
 
 .portfolio-thumb {
+    margin: auto;
     margin-bottom: 24px;
 }
 
@@ -832,7 +848,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
