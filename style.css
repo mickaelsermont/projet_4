@@ -511,11 +511,6 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
-.form-control {
-    border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
-}
-
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -646,7 +641,8 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: #000!important;
+    text-align: center;
     background: none;
 }
 
@@ -1006,7 +1002,7 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 40px 15px!important;
     }
     .bloc-sm,
     .bloc-md {
@@ -1051,6 +1047,16 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .snapshot-lb .modal-body {
+        padding-bottom: 70px;
+    }
+    .black-background {
+        background-color: rgba(165, 147, 99, 0.7);
+        padding: 40px 20px;
+    }
+    #form_1 {
+        margin-bottom: 20px;
     }
 }
 
