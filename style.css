@@ -607,7 +607,7 @@ a[data-lightbox]:hover img {
     background: rgba(0, 0, 0, .5);
     border: none;
     line-height: 30px;
-    padding: 0 9px 5px;
+    padding: 5px 9px;
     opacity: 0.3;
 }
 
